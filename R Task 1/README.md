@@ -69,3 +69,93 @@ The project groups customers based on **Age** and **Annual Income** using an uns
 - Statistical Computing
 
 ## Project Structure
+
+Customer-Segmentation-GMM
+│
+├── GMM_Project.R
+│
+├── README.md
+│
+└── Output
+    │
+    ├── Customer_Segmentation_Plot.png
+    │
+    └── Cluster_Probability_Plot.png
+
+
+## How to Run
+
+- Install R or RStudio.
+- Clone the repository.
+
+git clone https://github.com/Madhumidha4310/R-Programming.git
+
+
+- Open `gmm_em_algorithm.R`.
+- Run the complete script.
+
+## Output
+
+The program displays:
+
+- Iteration number
+- Log-likelihood values
+- Final mixture weights
+- Cluster means
+- Covariance matrices
+- Customer cluster assignments
+
+## Learning Objectives
+
+This project helps to understand:
+
+- Gaussian Mixture Models (GMM)
+- Expectation-Maximization Algorithm
+- Unsupervised Learning
+- Probability Distribution
+- Maximum Likelihood Estimation
+- Clustering Techniques
+
+## Advantages
+
+- Implements GMM from scratch.
+- No external packages required.
+- Provides better understanding of EM algorithm.
+- Demonstrates real-world customer segmentation.
+
+## Future Improvements
+
+- Support multiple clusters.
+- Use real-world customer datasets.
+- Add BIC/AIC model selection.
+- Compare results with existing GMM libraries.
+- Improve visualization using advanced plotting tools.
+
+## Visualization
+
+The project generates:
+
+- Customer segmentation scatter plot.
+- Cluster centers visualization.
+- Cluster probability plot.
+
+## Visualization Output
+
+### 1. Customer Segmentation Plot
+
+This plot shows the customer clusters generated using GMM.
+
+- Different colors represent different customer groups.
+- Black stars represent cluster centers.
+
+![Customer Segmentation Plot](images/cluster_plot.png)
+
+
+### 2. GMM Cluster Probability Plot
+
+This plot shows the probability of each customer belonging to a cluster.
+
+- Higher probability indicates stronger cluster membership.
+- Helps understand the confidence of cluster assignment.
+
+![Cluster Probability Plot](images/probability_plot.png)
