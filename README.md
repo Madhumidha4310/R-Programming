@@ -189,5 +189,6 @@ Displays:
 
 Output:
 
+<img width="800" height="600" alt="final_clusters" src="https://github.com/user-attachments/assets/6a42613e-3963-4160-aadb-e02eedbd804e" />
 
-# Project Structure
+<img width="800" height="600" alt="log_likelihood" src="https://github.com/user-attachments/assets/9043f076-5d18-4634-91e9-c66c2eb4210d" />
